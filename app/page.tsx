@@ -1,5 +1,7 @@
+
 import TodoList from "@/components/todo-list";
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
+import CardDemo from "@/components/card";
 
 export default function Home() {
   return (
@@ -7,6 +9,8 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <h1>Hello World..!</h1>
         <TodoList />
+        <CardDemo />
+        <Button variant="outline">Click Me</Button>
       </main>
     </div>
   );
