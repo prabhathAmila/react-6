@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 import Image from "next/image";
 import { Button } from "@/components/ui/button"
+=======
+
+import TodoList from "@/components/todo-list";
+import { Button } from "@/components/ui/button";
+import CardDemo from "@/components/card";
+>>>>>>> 4f50f76bbb7d9594296f7ef15acd91b07ea66328
 
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+<<<<<<< HEAD
         <Image
           className="dark:invert"
           src="/next.svg"
@@ -64,6 +72,12 @@ export default function Home() {
             Documentation
           </a>
         </div>
+=======
+        <h1>Hello World..!</h1>
+        <TodoList />
+        <CardDemo />
+        <Button variant="outline">Click Me</Button>
+>>>>>>> 4f50f76bbb7d9594296f7ef15acd91b07ea66328
       </main>
     </div>
   );
